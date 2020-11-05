@@ -42,4 +42,6 @@ def download(tickers: list, start_date: dt, end_date: dt, interval: str):
         except:
             pass
 
-    return _history_dict, _dividend_dict, _splits_dict
+    _return_dict = {'History': _history_dict, 'Dividends': _dividend_dict, 'Splits': _splits_dict}
+
+    return _return_dict
