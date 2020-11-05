@@ -69,5 +69,5 @@ yfinance:
 ```
 async-downloader:
 ```
-24.00 seconds
+15.03 seconds
 ```
