@@ -50,6 +50,7 @@ async-downloader:
 
 ### 500 Stocks
 Time taken to download the entire S&P 500 over the same period
+
 yfinance:
 ```
 13.82 seconds
@@ -61,6 +62,7 @@ async-downloader:
 
 ### Russell 2000
 Time taken to download 2000 stocks over the same period
+
 yfinance:
 ```
 263.23 seconds
