@@ -27,7 +27,7 @@ async def download_list(tickers: list, start_date: datetime.datetime, end_date: 
             _ticker = i.upper().replace('.', '-')
             _tickers.append(_ticker)
 
-            # Yahoo!Finance gives JSON when you call the right URL. Dir JSON Example for Examples
+            # Yahoo!Finance gives JSON when you call the right URL. Example JSON in directory. 
             _base_url = 'https://query1.finance.yahoo.com/v8/finance/chart/{}?period1={}&period2={}' \
                         '&interval={}&events=div%2Csplit&includeAdjustedClose=true'.format(_ticker, _period_one,
                                                                                            _period_two, _interval)
